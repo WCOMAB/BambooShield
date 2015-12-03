@@ -25,4 +25,6 @@ Once web is up and configured you can get an SVG badge for a plan using followin
 |buildKey   | BUILD                    |
 
 Example url:
-`https://bambooshield.azurewebsites.net/Flat/BAMSHI-BUILD.svg`
+`https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg`
+
+![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg)
