@@ -1,0 +1,12 @@
+<#
+    // Whenever this file is saved the files in the Includes section is downloaded
+    // from GitHub (you can download from other websources by changing rootpath)
+    RootPath    = @"https://raw.github.com/";
+    Namespace   = "BambooShield"         ;   // The downloaded content is wrapped in this namespace
+    Includes    = new []
+        {
+            Include (@"rebornix/DotBadge/master/DotBadge/BadgePainter.cs"),
+        };
+#>
+
+<#@ include file="$(SolutionDir)\packages\T4Include.1.1.4\T4\IncludeWebFile.ttinclude" #>
