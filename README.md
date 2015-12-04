@@ -1,4 +1,7 @@
 # Bamboo Shield
+
+![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg)
+
 Is a [NancyFX](https://github.com/NancyFx/Nancy) / .Net based web that provides shields.io like badges for Atlassian Bamboo build server builds using it's Rest API.
 
 This project currently is at a early proof of concept state, still needs testing and likely has bugs.
@@ -24,7 +27,18 @@ Once web is up and configured you can get an SVG badge for a plan using followin
 |projectKey | BAMSHI                   |
 |buildKey   | BUILD                    |
 
-Example url:
+Example url flat:
 `https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg`
 
 ![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg)
+
+Example url flat square:
+`https://bambooshield.azurewebsites.net/planstatus/FlatSquare/BAMSHI-BUILD.svg`
+
+![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/FlatSquare/BAMSHI-BUILD.svg)
+
+Example url plastic:
+`https://bambooshield.azurewebsites.net/planstatus/Plastic/BAMSHI-BUILD.svg`
+
+![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/Plastic/BAMSHI-BUILD.svg)
+
