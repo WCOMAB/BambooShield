@@ -1,6 +1,6 @@
 # Bamboo Shield
 
-![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg)
+![Bamboo shield](https://cakebambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg)
 
 Is a [NancyFX](https://github.com/NancyFx/Nancy) / .Net based web that provides shields.io like badges for Atlassian Bamboo build server builds using it's Rest API.
 
@@ -19,7 +19,7 @@ The web is configured against your on-prem / cloud Bamboo instance via environme
 ## Usage
 Once web is up and configured you can get an SVG badge for a plan using following route:
 
-`bambooshield.myhost.com/planstatus/{style}/{projectKey}-{buildKey}.svg`
+`cakebambooshield.myhost.com/planstatus/{style}/{projectKey}-{buildKey}.svg`
 
 |Parameter  |Example                   |
 |----------:|--------------------------|
@@ -28,17 +28,16 @@ Once web is up and configured you can get an SVG badge for a plan using followin
 |buildKey   | BUILD                    |
 
 Example url flat:
-`https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg`
+`https://cakebambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg`
 
-![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg)
+![Bamboo shield](https://cakebambooshield.azurewebsites.net/planstatus/Flat/BAMSHI-BUILD.svg)
 
 Example url flat square:
-`https://bambooshield.azurewebsites.net/planstatus/FlatSquare/BAMSHI-BUILD.svg`
+`https://cakebambooshield.azurewebsites.net/planstatus/FlatSquare/BAMSHI-BUILD.svg`
 
-![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/FlatSquare/BAMSHI-BUILD.svg)
+![Bamboo shield](https://cakebambooshield.azurewebsites.net/planstatus/FlatSquare/BAMSHI-BUILD.svg)
 
 Example url plastic:
-`https://bambooshield.azurewebsites.net/planstatus/Plastic/BAMSHI-BUILD.svg`
+`https://cakebambooshield.azurewebsites.net/planstatus/Plastic/BAMSHI-BUILD.svg`
 
-![Bamboo shield](https://bambooshield.azurewebsites.net/planstatus/Plastic/BAMSHI-BUILD.svg)
-
+![Bamboo shield](https://cakebambooshield.azurewebsites.net/planstatus/Plastic/BAMSHI-BUILD.svg)
